@@ -1,0 +1,51 @@
+{
+  "name": "passport",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare": "svelte-kit sync",
+    "dev": "concurrently -k -n game,web \"tsx watch server/dev.ts\" \"vite --host 0.0.0.0\"",
+    "build": "vite build",
+    "start": "tsx server/production.ts",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json && tsc --project tsconfig.server.json",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "test:all": "npm run check && npm test && npm run build && npm run test:e2e",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "playtest": "tsx scripts/playtest.ts",
+    "share": "tsx scripts/share.ts",
+    "ports": "tsx scripts/ports.ts"
+  },
+  "dependencies": {
+    "@fontsource/fredoka": "^5.3.0",
+    "@fontsource/lilita-one": "^5.3.0",
+    "@sveltejs/adapter-node": "^5.5.7",
+    "@sveltejs/kit": "^2.70.3",
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@tailwindcss/vite": "^4.3.3",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "svelte": "^5.57.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.0",
+    "zod": "^4.6.5"
+  },
+  "overrides": {
+    "@sveltejs/kit": {
+      "cookie": "0.7.2"
+    }
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.1",
+    "concurrently": "^10.0.5",
+    "prettier": "^3.9.8",
+    "prettier-plugin-svelte": "^4.1.1",
+    "svelte-check": "^4.7.6",
+    "tsx": "^4.23.13",
+    "vitest": "^5.0.1"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" fill="none" aria-hidden="true" focusable="false">
+  <!-- Original travel emblem, created for Passport; not a national insignia. -->
+  <g stroke="#e2c982" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="120" cy="99" r="47"/>
+    <ellipse cx="120" cy="99" rx="20" ry="47"/>
+    <path d="M74 99h92M81 76c24 10 54 10 78 0m-78 46c24-10 54-10 78 0"/>
+    <path d="M71 104 27 88l10 22 36 9M74 122l-33-6 13 17 27 2M83 138l-24-1 15 14 18-1"/>
+    <path d="m169 104 44-16-10 22-36 9m-1 3 33-6-13 17-27 2m-2 3 24-1-15 14-18-1"/>
+    <path d="M54 151c6 26 24 43 54 49m78-49c-6 26-24 43-54 49"/>
+    <path d="M60 168c-14 1-20-8-21-19 12 2 20 7 21 19Zm13 17c-14 6-23 0-27-10 12-2 22 0 27 10Zm18 12c-12 9-23 7-30-2 12-6 22-6 30 2Z" fill="#e2c982" stroke="none"/>
+    <path d="M180 168c14 1 20-8 21-19-12 2-20 7-21 19Zm-13 17c14 6 23 0 27-10-12-2-22 0-27 10Zm-18 12c12 9 23 7 30-2-12-6-22-6-30 2Z" fill="#e2c982" stroke="none"/>
+  </g>
+  <path d="M120 155c3 0 4 4 4 8v7l16 9v4l-16-5v10l5 4v3l-9-3-9 3v-3l5-4v-10-0.1l-16 5.1v-4l16-9v-7c0-4 1-8 4-8Z" fill="#e2c982"/>
+  <path d="m120 30 3 7 7 3-7 3-3 7-3-7-7-3 7-3Z" fill="#e2c982"/>
+  <circle cx="93" cy="39" r="2.5" fill="#e2c982"/>
+  <circle cx="147" cy="39" r="2.5" fill="#e2c982"/>
+</svg>
